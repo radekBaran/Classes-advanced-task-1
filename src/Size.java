@@ -1,7 +1,7 @@
 public enum Size {
-    LARGE("Duże butelkki (2l)"),
-    MEDIUM("Średnie butelki (1l)"),
-    SMALL("Małe butelki (0.5l)");
+    LARGE("Duże butelkki (2l):"),
+    MEDIUM("Średnie butelki (1l):"),
+    SMALL("Małe butelki (0.5l):");
 
     private String description;
 
@@ -15,5 +15,10 @@ public enum Size {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public String toString(){
+        return getDescription();
     }
 }
