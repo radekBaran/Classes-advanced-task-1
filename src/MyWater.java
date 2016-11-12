@@ -8,7 +8,17 @@ public class MyWater {
 
     public void addLarge(int l) {
         size = Size.LARGE;
-        bottles.put(Size.LARGE, l);
+        bottles.put(size, l);
+    }
+
+    public void addMedium(int m) {
+        size = Size.MEDIUM;
+        bottles.put(size, m);
+    }
+
+    public void addSmall(int s) {
+        size = Size.SMALL;
+        bottles.put(size, s);
     }
 
     public void printInfo(){

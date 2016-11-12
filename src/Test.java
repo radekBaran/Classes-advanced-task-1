@@ -3,6 +3,10 @@ public class Test {
         MyWater myWater = new MyWater();
 
         myWater.addLarge(6);
+        myWater.addSmall(5);
+        myWater.addMedium(2);
+
+
         myWater.printInfo();
     }
 }
