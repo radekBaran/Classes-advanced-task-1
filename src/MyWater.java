@@ -25,9 +25,20 @@ public class MyWater {
     }
 
     public void printInfo(){
+        System.out.println("Mamy teraz " + addWater() + " litrów wody");
         for(Size key : bottles.keySet()){
             System.out.println(key + " " + bottles.get(key));
         }
+    }
+
+    public double addWater(){
+        double large = 2;
+        double medium = 1;
+        double small = 0.5;
+        double sum  = (small * bottles.getOrDefault(Size.SMALL, 0)) + (medium * bottles.getOrDefault(Size.MEDIUM, 0)) +
+                (large * bottles.getOrDefault(Size.LARGE, 0));
+
+        return sum;
     }
 
     public void loadData(){
