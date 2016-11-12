@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Size.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Size.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Size.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -38,12 +38,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MyWater.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MyWater.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +67,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Size.java" />
+        <option value="$PROJECT_DIR$/src/MyWater.java" />
       </list>
     </option>
   </component>
@@ -445,6 +457,14 @@
             <element signature="e#354#355#0" expanded="true" />
             <element signature="e#400#401#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
