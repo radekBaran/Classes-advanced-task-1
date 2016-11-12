@@ -1,10 +1,13 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class MyWater {
 
     private static Size size;
     private static Map<Size, Integer> bottles = new HashMap<Size, Integer>();
+
+    Scanner input = new Scanner(System.in);
 
     public void addLarge(int l) {
         size = Size.LARGE;
@@ -25,5 +28,14 @@ public class MyWater {
         for(Size key : bottles.keySet()){
             System.out.println(key + " " + bottles.get(key));
         }
+    }
+
+    public void loadData(){
+        System.out.println("Wprowadź liczbę dużych butelek: ");
+        addLarge(input.nextInt());
+        System.out.println("Wprowadź liczbę średnich butelek: ");
+        addMedium(input.nextInt());
+        System.out.println("Wprowadź liczbę małych butelek: ");
+        addSmall(input.nextInt());
     }
 }
